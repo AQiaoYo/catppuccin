@@ -1,221 +1,165 @@
 <p align="center">
-  <h2 align="center">🧱 Port Creation</h2>
+  <h2 align="center">🧱 移植创作</h2>
 </p>
 
 <p align="center">
-	Guidelines for submitting and creating ports
+	提交与创建移植作品的指南
 </p>
 
 &nbsp;
 
-### What's a port?
+### 什么是移植？
 
-A port is an adaptation of Catppuccin's palette for an app to use. Think of it
-as a colorscheme for a program that styles every UI component it consists of!
+移植是将Catppuccin配色方案适配到某个应用程序中使用。可以理解为为程序设计的色彩方案，它会修饰该程序包含的所有UI组件！
 
-### What's a userstyle?
+### 什么是用户样式？
 
-A userstyle is, in the context of Catppuccin, a port for a website which is themed
-via [Stylus](https://github.com/openstyles/stylus), you can view all of Catppuccin's
-userstyles at [catppuccin/userstyles](https://github.com/catppuccin/userstyles).
+在Catppuccin语境下，用户样式是指通过[Stylus](https://github.com/openstyles/stylus)为网站定制的移植主题，您可以在[catppuccin/userstyles](https://github.com/catppuccin/userstyles)查看所有Catppuccin用户样式。
 
 > [!IMPORTANT]<br> 
-> **All userstyles are ports, but not all ports are userstyles.**
+> **所有用户样式都是移植作品，但并非所有移植都是用户样式。**
 
 &nbsp;
 
-### Submission
+### 提交规范
 
 > [!IMPORTANT]<br>
-> All ports should conform to our
-> [CODE OF CONDUCT](https://github.com/catppuccin/.github/blob/main/CODE_OF_CONDUCT.md)
-> and we, the staff team, reserve the right to choose what ports will be
-> included under the organization.
+> 所有移植作品必须遵守我们的
+> [行为准则](https://github.com/catppuccin/.github/blob/main/CODE_OF_CONDUCT.md)，
+> 管理团队保留对组织收录移植作品的最终决定权。
 
-Read through the following headings to ensure that you're adhering to our
-submission guidelines!
+请仔细阅读以下章节，确保您的提交符合我们的规范！
 
-- [Workflow](#workflow) - View the ideal Catppuccin port workflow from start to
-  finish!
-- [FAQ](#faq) - Unsure where to start? You can find the answers to your
-  questions here!
-- [Creation](#creation) - Start creating your ports with our template
-  repository!
-- [Styling](#styling) - Already started work on your port? Make sure you're
-  following our style guidelines!
-- [Licensing](#licensing) - Important information about the licensing of ports
-  underneath the organization!
-- [Maintenance](#maintenance) - Details on the maintenance of ports after they
-  have been transferred into the organization!
+- [工作流程](#workflow) - 查看Catppuccin移植从开始到完成的理想流程！
+- [常见问题](#faq) - 不知从何开始？这里能找到您需要的答案！
+- [创作指南](#creation) - 使用我们的模板仓库开始创作移植作品！
+- [样式规范](#styling) - 已开始移植工作？请确保遵循我们的样式指南！
+- [许可协议](#licensing) - 关于组织下移植作品许可的重要信息！
+- [维护说明](#maintenance) - 移植作品转入组织后的维护细则！
 
 &nbsp;
 
-### Workflow
+### 工作流程
 
 ```mermaid
 stateDiagram-v2
-  idea: You have an idea for a port
+  idea: 你有一个主题移植的想法
   idea --> choice
 
-  choice: Have you already completed a draft?
-  choice --> is_userstyle: Yes
-  choice --> request: No
+  choice: 是否已完成草案?
+  choice --> is_userstyle: 是
+  choice --> request: 否
 
-  request: Open a Port Request discussion
+  request: 发起移植请求讨论
   request --> request_picked_up
   
-  request_picked_up: You or somebody else works on a draft
+  request_picked_up: 你或其他人开始起草草案
   request_picked_up --> request_complete
 
-  request_complete: The draft is completed to your liking
+  request_complete: 草案完成并符合你的期望
   request_complete --> draft_complete
 
-  is_userstyle: Is this themed via Stylus?
-  is_userstyle --> userstyle_review: Yes
-  is_userstyle --> draft_complete: No
+  is_userstyle: 这是通过Stylus实现的主题吗?
+  is_userstyle --> userstyle_review: 是
+  is_userstyle --> draft_complete: 否
 
-  userstyle_review: Submit pull request\nto catppuccin/userstyles
+  userstyle_review: 向catppuccin/userstyles提交拉取请求
   userstyle_review --> review
   
-  draft_complete: Create a Port Review issue
+  draft_complete: 创建移植审核issue
   draft_complete --> review
 
-  review: Review period
+  review: 审核阶段
   review --> port_adoption
 
   note right of review
-    Community feedback
+    社区反馈
   end note
 
-  port_adoption: Port adoption
+  port_adoption: 移植完成
 ```
 
 &nbsp;
 
-### FAQ
+### 常见问题
 
-**Q. I have a port that is already themed and ready for review!**
+**问：我已经完成了一个主题移植，准备提交审核！**
 
-**A.** Port reviews can be raised as an issue
-[here](https://github.com/catppuccin/catppuccin/issues/new?assignees=&template=port-review.yml&title=Name+of+the+application%2Ftool%2Fwebsite%2Fetc.)
-since the port is already themed and ready to be reviewed by our
-[staff team](https://github.com/catppuccin/community/#current-structure)!
+**答：** 已完成的移植审核可以通过[此处](https://github.com/catppuccin/catppuccin/issues/new?assignees=&template=port-review.yml&title=Name+of+the+application%2Ftool%2Fwebsite%2Fetc.)提交issue，我们的[核心团队](https://github.com/catppuccin/community/#current-structure)将会进行审核！
 
-**Q. I have a userstyle that is already finished and ready for review!**
+**问：我已经完成了一个用户样式，准备提交审核！**
 
-**A.** Finished userstyles should be raised via a [pull request](https://github.com/catppuccin/userstyles/compare)
-to [catppuccin/userstyles](https://github.com/catppuccin/userstyles/compare). You can find further information on
-how to contribute userstyles [here](https://github.com/catppuccin/userstyles/blob/main/docs/userstyle-creation.md).
+**答：** 已完成的用户样式请通过[拉取请求](https://github.com/catppuccin/userstyles/compare)提交至[catppuccin/userstyles](https://github.com/catppuccin/userstyles/compare)。更多关于如何贡献用户样式的信息请参考[这里](https://github.com/catppuccin/userstyles/blob/main/docs/userstyle-creation.md)。
 
-**Q. I have a request for a port to be included and/or I've started working on it!**
+**问：我想申请移植某个项目/我已经开始移植工作！**
 
-**A.** Raise a discussion under main repository
-[here](https://github.com/catppuccin/catppuccin/discussions/new?category=port-requests)!
-The discussion will be transferred to an issue by the
-[staff team](https://github.com/catppuccin/community/#current-structure) once we
-have deemed the port ready to be reviewed! Feel free to join our
-[Discord](https://discord.com/servers/catppuccin-907385605422448742) and share it there too!
+**答：** 请在主仓库[发起讨论](https://github.com/catppuccin/catppuccin/discussions/new?category=port-requests)！当我们的[核心团队](https://github.com/catppuccin/community/#current-structure)确认移植准备就绪后，该讨论会被转为issue。也欢迎加入我们的[Discord](https://discord.com/servers/catppuccin-907385605422448742)进行分享！
 
-**Q. What types of ports won't be accepted?**
+**问：哪些类型的移植不会被接受？**
 
-**A.** As a community-driven project, we want to keep a neutral environment for
-all users. Therefore, **we do not accept contributions that have a religious or
-political context.** However, we have no issue with our palette being used in
-these contexts.
+**答：** 作为社区驱动项目，我们希望为所有用户保持中立环境。因此**我们不接受具有宗教或政治背景的贡献**。当然，我们不反对我们的配色方案被用于这些场景。
 
 &nbsp;
 
-### Creation
+### 创建指南
 
-You can create ports using [this](https://github.com/catppuccin/template) public
-template as a blueprint.
+你可以使用[这个公开模板](https://github.com/catppuccin/template)作为蓝图来创建移植项目。
 
-1. Clone template repository
+1. 克隆模板仓库
 
    ```
-   git clone https://github.com/catppuccin/template.git <name_of_your_port>
+   git clone https://github.com/catppuccin/template.git <你的移植项目名称>
    ```
 
-2. Navigate into the cloned repository
+2. 进入克隆的仓库目录
 
    ```
-   cd <name_of_your_port>
+   cd <你的移植项目名称>
    ```
 
-3. Delete the `.git` folder at the root of the repository and run `git init`. This removes the template authors from appearing as contributors to your new port.
+3. 删除仓库根目录下的 `.git` 文件夹并运行 `git init`。这将避免模板作者显示为你新移植项目的贡献者。  
 
-4. Set up the rest of your port, and push it to your user repository!
+4. 完成移植项目的其他设置，并将其推送到你的个人仓库！  
 
-&nbsp;
+&nbsp;  
 
-### Styling
+### 样式规范  
 
-After creating the repo successfully, it's important to style it properly to
-ensure consistency:
+成功创建仓库后，遵循以下样式规范以确保一致性非常重要：  
 
-- The name of the repo must be the app's name in `lower-kebab-case` (e.g.
-  `unreal-engine` instead of `Unreal Engine`).
-- Ensure that the default branch is set to `main`. This ensures that the
-  repository is consistent with other ports across the organization.
-- Put the images under `assets/`.
-  - Prefer `.webp` over `.png` for images. `.webp` is a more efficient format and is supported by all major browsers.
-- Format the repo's description as "`<emoji>` Soothing pastel theme for
-  `<app name>`".
-  - `<emoji>` should be an emoji that you feel represents the app best.
-  - `<app name>` is the name of the app, capitalized properly.
-- Add `catppuccin`, `theme`, and the name of the application (e.g.
-  `unreal-engine`) to the topics.
-- Ensure that you have generated the repository following the
-  [creation](#creation) steps.
-- Ensure that the port README.md is styled appropriately following the steps
-  below:
-  - Update [shields.io](https://shields.io/) badges to point towards your
-    repository link instead of the template repository.
-  - The main preview image should be an image generated by
-    [catwalk](https://github.com/catppuccin/toolbox#-catwalk). (e.g.
-    [vscode](https://github.com/catppuccin/vscode#catppuccin-for-vscode) and
-    [discord](https://github.com/catppuccin/discord#catppuccin-for-discord))
-  - Change the preview paths to use [relative links](https://github.blog/2013-01-31-relative-links-in-markup-files/)
-  - Add yourself to the **Thanks to** section \<3
-- Ensure uppercase meta files (e.g. `README.md`)
-- Don't add health files (e.g. `CODE_OF_CONDUCT.md`, `SUPPORT.md`), those are
-  organization-wide files stored [here](https://github.com/catppuccin/.github).
+- 仓库名称必须使用 `短横线小写命名法`（例如 `unreal-engine` 而非 `Unreal Engine`）。  
+- 确保默认分支设置为 `main`，这能使仓库与组织内的其他移植项目保持一致。  
+- 将图片放置在 `assets/` 目录下。  
+  - 图片格式优先选择 `.webp` 而非 `.png`，因为 `.webp` 效率更高且所有主流浏览器均支持。  
+- 仓库描述格式为："`<表情符号>` Soothing pastel theme for `<应用名称>`"。  
+  - `<表情符号>` 应选择最能代表该应用的 emoji。  
+  - `<应用名称>` 需使用正确的大小写格式。  
+- 在仓库标签中添加 `catppuccin`、`theme` 和应用名称（如 `unreal-engine`）。  
+- 确保已按照[创建步骤](#creation)生成仓库。  
+- 确保移植项目的 README.md 按以下规范设置样式：  
+  - 更新 [shields.io](https://shields.io/) 徽章链接，指向你的仓库而非模板仓库。  
+  - 主预览图应使用 [catwalk](https://github.com/catppuccin/toolbox#-catwalk) 工具生成（参考 [vscode](https://github.com/catppuccin/vscode#catppuccin-for-vscode) 和 [discord](https://github.com/catppuccin/discord#catppuccin-for-discord) 示例）。  
+  - 将预览图路径改为[相对链接](https://github.blog/2013-01-31-relative-links-in-markup-files/)。  
+  - 在 **致谢** 部分添加你的名字 ❤️  
+- 确保元文件使用大写字母命名（如 `README.md`）。  
+- 不要添加健康文件（如 `CODE_OF_CONDUCT.md`、`SUPPORT.md`），这些是组织级文件，存放于[此处](https://github.com/catppuccin/.github)。  
 
-&nbsp;
+&nbsp;  
 
-### Maintenance
+### 维护说明  
 
-The staff team wants to let you know that we understand submitting a port may
-feel overwhelming. But don't worry, **we don't expect you to keep maintaining
-your port after it's been transferred to us**. We would love for you to continue
-helping out, but we understand if that's not possible.
+管理团队希望你知道：我们理解提交移植项目可能让人压力倍增。但请放心，**我们并不要求你在项目移交后继续维护**。当然，如果你愿意持续贡献，我们会非常感激。  
 
-When you submit your port to be transferred, think of it as offering it up for
-co-maintenance. This means you'll work with the staff team to maintain the port
-together! Our main focus will be to maintain consistent quality and
-accessibility standards across all ports. We'll also provide feedback on ways to
-improve your port and help fix any technical issues.
+当你提交移植项目时，请将其视为共同维护的邀请。这意味着你将与团队协作维护项目！我们的主要目标是保持所有移植项目的质量一致性和可访问性标准。我们也会提供改进建议并协助解决技术问题。  
 
-&nbsp;
+&nbsp;  
 
-### Licensing
+### 许可协议  
 
-Any contribution will be published under the same licensing terms (MIT) as the
-project itself. However, there are
-[exceptions to this rule](https://github.com/search?q=org%3Acatppuccin+-license%3Amit).
-Please get in touch with us, if the application you're theming has licensing
-restrictions, or your work is a derivative of a stricter license (e.g.
-[cursors](https://github.com/catppuccin/cursors#info)).
+所有贡献都将以与项目相同的许可条款（MIT）发布。但存在[例外情况](https://github.com/search?q=org%3Acatppuccin+-license%3Amit)。如果你主题化的应用有特殊许可限制，或你的作品基于更严格的许可（如[光标主题](https://github.com/catppuccin/cursors#info)），请务必联系我们。  
 
-&nbsp;
+&nbsp;  
 
-### Tools
+### 工具集  
 
-Since Catppuccin is available in 4 flavors it's understandable that it may be
-difficult to make 4 versions of a port. So to help with that, we have built a
-bunch of tools to make life easier when creating Catppuccin ports. You'll find
-them all (with instructions) under our
-[catppuccin/toolbox](https://github.com/catppuccin/toolbox) repo. An essential
-tool for creating ports is
-[catwalk](https://github.com/catppuccin/toolbox#-catwalk), this is used to create
-a layered screenshot of your port which combines all four flavors into one.
+由于 Catppuccin 包含 4 种风味主题，制作移植项目的四个版本可能颇具挑战。为此，我们开发了系列工具来简化流程。你可以在 [catppuccin/toolbox](https://github.com/catppuccin/toolbox) 仓库中找到所有工具（含使用说明）。其中 [catwalk](https://github.com/catppuccin/toolbox#-catwalk) 是核心工具，用于生成展示四种风味的合成预览图。  

@@ -1,32 +1,27 @@
 <p align="center">
-  <h2 align="center">🍙 Specs</h2>
+  <h2 align="center">🍙 配色规范</h2>
 </p>
 
 <p align="center">
-	Properties of the palette
+	调色板属性
 </p>
 
 &nbsp;
 
-### Palette
+### 调色板
 
-Catppuccin consists of four named flavors: Latte, Frappé, Macchiato, and Mocha. Each flavor has its use-cases
-and a reason to exist! (so to speak). Every flavor has labels (AKA colors) that provide different syntactic meanings
-and color effects for dark & bright ambiance designs. Each one of them was created aiming for a clear, uncluttered, and
-elegant design following a minimal and flat style pattern.
+Catppuccin包含四种命名风味：Latte（拿铁）、Frappé（芙蕾）、Macchiato（玛奇朵）和Mocha（摩卡）。每种风味都有其使用场景和存在意义！（可以这么说）。每种风味都配有标签（即颜色），为深色和明亮氛围设计提供不同的语义含义和色彩效果。每种风味的创建都遵循极简扁平风格模式，追求清晰、整洁且优雅的设计。
 
 &nbsp;
 
-### Sub-palettes
+### 子调色板
 
-Every flavor consists of two sub-palettes: one monochromatic and one analogous. The monochromatic sub-palette consists
-of different shades of a purple-gray and a very pale lavender and is often used for UI components. Whereas the analogous
-palette has every color in the rainbow and is often used for syntactic elements.
+每种风味由两个子调色板组成：单色系和类似色系。单色系子调色板由不同深浅的紫灰色和极浅薰衣草色组成，常用于UI组件。而类似色调色板则包含彩虹中的所有颜色，常用于语法元素。
 
 &nbsp;
 
-### Catppuccin Infrastructure
+### Catppuccin 基础设施
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/infrastructure.png" alt="catppuccin infrastructure"/>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/infrastructure.png" alt="catppuccin基础设施"/>
 </p>
