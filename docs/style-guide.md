@@ -1,28 +1,28 @@
 <div align="center">
-  <h2>🖌️ Style Guide</h2>
-  <p> A guide on how to properly <strong>use</strong> the palette </p>
+  <h2>🖌️ 样式指南</h2>
+  <p> 关于如何正确<strong>使用</strong>调色板的指南 </p>
 </div>
 
 &nbsp;
 
-### General Usage
+### 通用用法
 
 > [!IMPORTANT]
-> Text colors are guidelines, certain cases require deviations
-> from the guidelines below. An example would be `text` on colored backgrounds.
-> Legibility always comes first, so please use your own judgement.
+> 文本颜色是指导性的，某些情况下需要偏离以下指南。
+> 例如，在彩色背景上的 `text`。
+> 可读性永远是第一位的，因此请根据实际情况自行判断。
 
 <table>
   <tr>
-    <th colspan="3" align="center"><h4>Background Colors</h4></th>
+    <th colspan="3" align="center"><h4>背景颜色</h4></th>
   </tr>
   <tr>
-    <th>Function</th>
-    <th colspan="2">Colors</th>
+    <th>功能</th>
+    <th colspan="2">颜色</th>
   </tr>
   <tr>
-    <td>Background Pane</td>
-    <td>Base</td>
+    <td>主背景面板</td>
+    <td>基础</td>
     <td>
       <img src="../assets/palette/circles/latte_base.png" height="15" width="16"/>
       <img src="../assets/palette/circles/frappe_base.png" height="15" width="16"/>
@@ -31,7 +31,7 @@
     </td>
   </tr>
   <tr>
-    <td>Secondary Panes</td>
+    <td>次级面板</td>
     <td>
       Crust,<br>
       Mantle
@@ -48,7 +48,7 @@
     </td>
   </tr>
   <tr>
-    <td>Surface Elements</td>
+    <td>表面元素</td>
     <td>
       Surface 0,<br>
       Surface 1,<br>
@@ -70,7 +70,7 @@
     </td>
   </tr>
   <tr>
-    <td>Overlays</td>
+    <td>覆盖层</td>
     <td>
       Overlay 0,<br>
       Overlay 1,<br>
@@ -92,14 +92,14 @@
     </td>
   </tr>
   <tr>
-    <th colspan="3" align="center"><h4>Typography</h4></th>
+    <th colspan="3" align="center"><h4>排版</h4></th>
   </tr>
   <tr>
-    <th>Function</th>
-    <th colspan="2">Colors</th>
+    <th>功能</th>
+    <th colspan="2">颜色</th>
   </tr>
   <tr>
-    <td>Body Copy</td>
+    <td>正文</td>
     <td>Text</td>
     <td>
       <img src="../assets/palette/circles/latte_text.png" height="16" width="16"/>
@@ -109,7 +109,7 @@
     </td>
   </tr>
   <tr>
-    <td>Main Headline</td>
+    <td>主标题</td>
     <td>Text</td>
     <td>
       <img src="../assets/palette/circles/latte_text.png" height="16" width="16"/>
@@ -119,7 +119,7 @@
     </td>
   </tr>
   <tr>
-    <td>Sub-Headlines, Labels</td>
+    <td>副标题、标签</td>
     <td>
       Subtext 0,<br>
       Subtext 1
@@ -136,7 +136,7 @@
     </td>
   </tr>
   <tr>
-    <td>Subtle</td>
+    <td>细微文本</td>
     <td>Overlay 1</td>
     <td>
       <img src="../assets/palette/circles/latte_overlay1.png" height="16" width="16"/>
@@ -146,7 +146,7 @@
     </td>
   </tr>
   <tr>
-    <td>Links, URLs</td>
+    <td>链接、网址</td>
     <td>Blue</td>
     <td>
       <img src="../assets/palette/circles/latte_blue.png" height="16" width="16"/>
@@ -156,7 +156,7 @@
     </td>
   </tr>
   <tr>
-    <td>Success</td>
+    <td>成功</td>
     <td>Green</td>
     <td>
       <img src="../assets/palette/circles/latte_green.png" height="16" width="16"/>
@@ -166,7 +166,7 @@
     </td>
   </tr>
   <tr>
-    <td>Warnings</td>
+    <td>警告</td>
     <td>Yellow</td>
     <td>
       <img src="../assets/palette/circles/latte_yellow.png" height="16" width="16"/>
@@ -176,7 +176,7 @@
     </td>
   </tr>
   <tr>
-    <td>Errors</td>
+    <td>错误</td>
     <td>Red</td>
     <td>
       <img src="../assets/palette/circles/latte_red.png" height="16" width="16"/>
@@ -186,7 +186,7 @@
     </td>
   </tr>
   <tr>
-    <td>Tags, Pills</td>
+    <td>标签、胶囊</td>
     <td>Blue</td>
     <td>
       <img src="../assets/palette/circles/latte_blue.png" height="16" width="16"/>
@@ -196,10 +196,10 @@
     </td>
   </tr>
   <tr>
-    <td>Selection Background</td>
+    <td>选区背景</td>
     <td>
       Overlay 2<br>
-      <strong>20% - 30% Opacity</strong>
+      <strong>20% - 30% 不透明度</strong>
     </td>
     <td>
       <img src="../assets/palette/circles/latte_overlay2.png" height="16" width="16"/>
@@ -209,7 +209,7 @@
     </td>
   </tr>
   <tr>
-    <td>Cursor</td>
+    <td>光标</td>
     <td>Rosewater</td>
     <td>
       <img src="../assets/palette/circles/latte_rosewater.png" height="16" width="16"/>
@@ -220,436 +220,436 @@
   </tr>
 </table>
 
-### Terminals
+### 终端配色
 
 <table>
   <tr>
-    <th colspan="9" align="center"><h4>Window Colors</h4></th>
+    <th colspan="9" align="center"><h4>窗口颜色</h4></th>
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">Latte</th>
-    <th colspan="2">Frappé</th>
-    <th colspan="2">Macchiato</th>
-    <th colspan="2">Mocha</th>
+    <th colspan="2">拿铁</th>
+    <th colspan="2">冰沙</th>
+    <th colspan="2">玛奇朵</th>
+    <th colspan="2">摩卡</th>
   </tr>
   <tr>
-    <td>Cursor</td>
+    <td>光标</td>
     <td><img src="../assets/palette/circles/latte_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
     <td><img src="../assets/palette/circles/frappe_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
     <td><img src="../assets/palette/circles/macchiato_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
     <td><img src="../assets/palette/circles/mocha_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
   </tr>
   <tr>
-    <td>Cursor Text</td>
+    <td>光标文本</td>
     <td><img src="../assets/palette/circles/latte_base.png" height="16" width="16"/></td>
-    <td>Base</td>
+    <td>基底</td>
     <td><img src="../assets/palette/circles/frappe_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/macchiato_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/mocha_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
   </tr>
   <tr>
-    <td>Active Border</td>
+    <td>活动边框</td>
     <td><img src="../assets/palette/circles/latte_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
     <td><img src="../assets/palette/circles/frappe_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
     <td><img src="../assets/palette/circles/macchiato_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
     <td><img src="../assets/palette/circles/mocha_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
   </tr>
   <tr>
-    <td>Inactive Border</td>
+    <td>非活动边框</td>
     <td><img src="../assets/palette/circles/latte_overlay0.png" height="16" width="16"/></td>
-    <td>Overlay 0</td>
+    <td>叠加层0</td>
     <td><img src="../assets/palette/circles/frappe_overlay0.png" height="16" width="16"/></td>
-    <td>Overlay 0</td>
+    <td>叠加层0</td>
     <td><img src="../assets/palette/circles/macchiato_overlay0.png" height="16" width="16"/></td>
-    <td>Overlay 0</td>
+    <td>叠加层0</td>
     <td><img src="../assets/palette/circles/mocha_overlay0.png" height="16" width="16"/></td>
-    <td>Overlay 0</td>
+    <td>叠加层0</td>
   </tr>
   <tr>
-    <td>Bell Border</td>
+    <td>铃声边框</td>
     <td><img src="../assets/palette/circles/latte_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
     <td><img src="../assets/palette/circles/frappe_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
     <td><img src="../assets/palette/circles/macchiato_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
     <td><img src="../assets/palette/circles/mocha_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
   </tr>
   <tr>
-    <th colspan="9" align="center"><h4>Regular Colors</h4></th>
+    <th colspan="9" align="center"><h4>常规颜色</h4></th>
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">Latte</th>
-    <th colspan="2">Frappé</th>
-    <th colspan="2">Macchiato</th>
-    <th colspan="2">Mocha</th>
+    <th colspan="2">拿铁</th>
+    <th colspan="2">冰沙</th>
+    <th colspan="2">玛奇朵</th>
+    <th colspan="2">摩卡</th>
   </tr>
   <tr>
     <td>color0</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_black.png" height="16" width="16"/>
-    </td><td>Subtext 1</td>
+    </td><td>副文本1</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_black.png" height="16" width="16"/></td>
-    <td>Surface 1</td>
+    <td>表面1</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_black.png" height="16" width="16"/></td>
-    <td>Surface 1</td>
+    <td>表面1</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_black.png" height="16" width="16"/></td>
-    <td>Surface 1</td>
+    <td>表面1</td>
   </tr>
   <tr>
     <td>color1</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_red.png" height="16" width="16"/></td>
-    <td>Red</td>
+    <td>红色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_red.png" height="16" width="16"/></td>
-    <td>Red</td>
+    <td>红色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_red.png" height="16" width="16"/></td>
-    <td>Red</td>
+    <td>红色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_red.png" height="16" width="16"/></td>
-    <td>Red</td>
+    <td>红色</td>
   </tr>
   <tr>
     <td>color2</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_green.png" height="16" width="16"/></td>
-    <td>Green</td>
+    <td>绿色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_green.png" height="16" width="16"/></td>
-    <td>Green</td>
+    <td>绿色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_green.png" height="16" width="16"/></td>
-    <td>Green</td>
+    <td>绿色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_green.png" height="16" width="16"/></td>
-    <td>Green</td>
+    <td>绿色</td>
   </tr>
   <tr>
     <td>color3</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_yellow.png" height="16" width="16"/></td>
-    <td>Yellow</td>
+    <td>黄色</td>
   </tr>
   <tr>
     <td>color4</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_blue.png" height="16" width="16"/></td>
-    <td>Blue</td>
+    <td>蓝色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_blue.png" height="16" width="16"/></td>
-    <td>Blue</td>
+    <td>蓝色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_blue.png" height="16" width="16"/></td>
-    <td>Blue</td>
+    <td>蓝色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_blue.png" height="16" width="16"/></td>
-    <td>Blue</td>
+    <td>蓝色</td>
   </tr>
   <tr>
     <td>color5</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_magenta.png" height="16" width="16"/></td>
-    <td>Pink</td>
+    <td>粉色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_magenta.png" height="16" width="16"/></td>
-    <td>Pink</td>
+    <td>粉色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_magenta.png" height="16" width="16"/></td>
-    <td>Pink</td>
+    <td>粉色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_magenta.png" height="16" width="16"/></td>
-    <td>Pink</td>
+    <td>粉色</td>
   </tr>
   <tr>
     <td>color6</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_cyan.png" height="16" width="16"/></td>
-    <td>Teal</td>
+    <td>青色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_cyan.png" height="16" width="16"/></td>
-    <td>Teal</td>
+    <td>青色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_cyan.png" height="16" width="16"/></td>
-    <td>Teal</td>
+    <td>青色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_cyan.png" height="16" width="16"/></td>
-    <td>Teal</td>
+    <td>青色</td>
   </tr>
   <tr>
     <td>color7</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_white.png" height="16" width="16"/></td>
-    <td>Surface 2</td>
+    <td>表面2</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_white.png" height="16" width="16"/></td>
-    <td>Subtext 0</td>
+    <td>副文本0</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_white.png" height="16" width="16"/></td>
-    <td>Subtext 0</td>
+    <td>副文本0</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_white.png" height="16" width="16"/></td>
-    <td>Subtext 0</td>
+    <td>副文本0</td>
   </tr>
   <tr>
-    <th colspan="9" align="center"><h4>Bold Colors <a href="#1-ansi-color-generation"><sup>1)</sup></a></h4></th>
+    <th colspan="9" align="center"><h4>加粗颜色 <a href="#1-ansi-color-generation"><sup>1)</sup></a></h4></th>
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">Latte</th>
-    <th colspan="2">Frappé</th>
-    <th colspan="2">Macchiato</th>
-    <th colspan="2">Mocha</th>
+    <th colspan="2">拿铁</th>
+    <th colspan="2">冰沙</th>
+    <th colspan="2">玛奇朵</th>
+    <th colspan="2">摩卡</th>
   </tr>
   <tr>
     <td>color8</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_black.png" height="16" width="16"/></td>
-    <td>Subtext 0</td>
+    <td>副文本0</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_black.png" height="16" width="16"/></td>
-    <td>Surface 2</td>
+    <td>表面2</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_black.png" height="16" width="16"/>
-    </td><td>Surface 2</td>
+    </td><td>表面2</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_black.png" height="16" width="16"/></td>
-    <td>Surface 2</td>
+    <td>表面2</td>
   </tr>
   <tr>
     <td>color9</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_red.png" height="16" width="16"/></td>
-    <td>Bright Red</td>
+    <td>亮红色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_red.png" height="16" width="16"/></td>
-    <td>Bright Red</td>
+    <td>亮红色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_red.png" height="16" width="16"/></td>
-    <td>Bright Red</td>
+    <td>亮红色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_red.png" height="16" width="16"/></td>
-    <td>Bright Red</td>
+    <td>亮红色</td>
   </tr>
   <tr>
     <td>color10</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_green.png" height="16" width="16"/></td>
-    <td>Bright Green</td>
+    <td>亮绿色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_green.png" height="16" width="16"/></td>
-    <td>Bright Green</td>
+    <td>亮绿色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_green.png" height="16" width="16"/></td>
-    <td>Bright Green</td>
+    <td>亮绿色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_green.png" height="16" width="16"/></td>
-    <td>Bright Green</td>
+    <td>亮绿色</td>
   </tr>
   <tr>
     <td>color11</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_yellow.png" height="16" width="16"/></td>
-    <td>Bright Yellow</td>
+    <td>亮黄色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_yellow.png" height="16" width="16"/></td>
-    <td>Bright Yellow</td>
+    <td>亮黄色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_yellow.png" height="16" width="16"/></td>
-    <td>Bright Yellow</td>
+    <td>亮黄色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_yellow.png" height="16" width="16"/></td>
-    <td>Bright Yellow</td>
+    <td>亮黄色</td>
   </tr>
   <tr>
     <td>color12</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_blue.png" height="16" width="16"/></td>
-    <td>Bright Blue</td>
+    <td>亮蓝色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_blue.png" height="16" width="16"/></td>
-    <td>Bright Blue</td>
+    <td>亮蓝色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_blue.png" height="16" width="16"/></td>
-    <td>Bright Blue</td>
+    <td>亮蓝色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_blue.png" height="16" width="16"/></td>
-    <td>Bright Blue</td>
+    <td>亮蓝色</td>
   </tr>
   <tr>
     <td>color13</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_magenta.png" height="16" width="16"/></td>
-    <td>Bright Pink</td>
+    <td>亮粉色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_magenta.png" height="16" width="16"/></td>
-    <td>Bright Pink</td>
+    <td>亮粉色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_magenta.png" height="16" width="16"/></td>
-    <td>Bright Pink</td>
+    <td>亮粉色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_magenta.png" height="16" width="16"/></td>
-    <td>Bright Pink</td>
+    <td>亮粉色</td>
   </tr>
   <tr>
     <td>color14</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_cyan.png" height="16" width="16"/></td>
-    <td>Bright Teal</td>
+    <td>亮青色</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_cyan.png" height="16" width="16"/></td>
-    <td>Bright Teal</td>
+    <td>亮青色</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_cyan.png" height="16" width="16"/></td>
-    <td>Bright Teal</td>
+    <td>亮青色</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_cyan.png" height="16" width="16"/></td>
-    <td>Bright Teal</td>
+    <td>亮青色</td>
   </tr>
   <tr>
     <td>color15</td>
     <td><img src="../assets/palette/circles/ansi/latte_ansi_bright_white.png" height="16" width="16"/></td>
-    <td>Surface 1</td>
+    <td>表面1</td>
     <td><img src="../assets/palette/circles/ansi/frappe_ansi_bright_white.png" height="16" width="16"/></td>
-    <td>Subtext 1</td>
+    <td>副文本1</td>
     <td><img src="../assets/palette/circles/ansi/macchiato_ansi_bright_white.png" height="16" width="16"/></td>
-    <td>Subtext 1</td>
+    <td>副文本1</td>
     <td><img src="../assets/palette/circles/ansi/mocha_ansi_bright_white.png" height="16" width="16"/></td>
-    <td>Subtext 1</td>
+    <td>副文本1</td>
   </tr>
   <tr>
-    <th colspan="9" align="center"><h4>Extended Colors</h4></th>
+    <th colspan="9" align="center"><h4>扩展颜色</h4></th>
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">Latte</th>
-    <th colspan="2">Frappé</th>
-    <th colspan="2">Macchiato</th>
-    <th colspan="2">Mocha</th>
+    <th colspan="2">拿铁</th>
+    <th colspan="2">冰沙</th>
+    <th colspan="2">玛奇朵</th>
+    <th colspan="2">摩卡</th>
   </tr>
   <tr>
     <td>color16</td>
     <td><img src="../assets/palette/circles/latte_peach.png" height="16" width="16"/></td>
-    <td>Peach</td>
+    <td>桃子</td>
     <td><img src="../assets/palette/circles/frappe_peach.png" height="16" width="16"/></td>
-    <td>Peach</td>
+    <td>桃子</td>
     <td><img src="../assets/palette/circles/macchiato_peach.png" height="16" width="16"/></td>
-    <td>Peach</td>
+    <td>桃子</td>
     <td><img src="../assets/palette/circles/mocha_peach.png" height="16" width="16"/></td>
-    <td>Peach</td>
+    <td>桃子</td>
   </tr>
   <tr>
     <td>color17</td>
     <td><img src="../assets/palette/circles/latte_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
     <td><img src="../assets/palette/circles/frappe_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
     <td><img src="../assets/palette/circles/macchiato_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
     <td><img src="../assets/palette/circles/mocha_rosewater.png" height="16" width="16"/></td>
-    <td>Rosewater</td>
+    <td>玫瑰水</td>
   </tr>
   <tr>
-    <th colspan="9" align="center"><h4>Syntax Colors</h4></th>
+    <th colspan="9" align="center"><h4>语法高亮颜色</h4></th>
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">Latte</th>
-    <th colspan="2">Frappé</th>
-    <th colspan="2">Macchiato</th>
-    <th colspan="2">Mocha</th>
+    <th colspan="2">拿铁</th>
+    <th colspan="2">冰沙</th>
+    <th colspan="2">玛奇朵</th>
+    <th colspan="2">摩卡</th>
   </tr>
   <tr>
-    <td>Mark 1</td>
+    <td>标记1</td>
     <td><img src="../assets/palette/circles/latte_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
     <td><img src="../assets/palette/circles/frappe_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
     <td><img src="../assets/palette/circles/macchiato_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
     <td><img src="../assets/palette/circles/mocha_lavender.png" height="16" width="16"/></td>
-    <td>Lavender</td>
+    <td>薰衣草</td>
   </tr>
   <tr>
-    <td>Mark 1 Text</td>
+    <td>标记1文本</td>
     <td><img src="../assets/palette/circles/latte_base.png" height="16" width="16"/></td>
-    <td>Base</td>
+    <td>基底</td>
     <td><img src="../assets/palette/circles/frappe_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/macchiato_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/mocha_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
   </tr>
   <tr>
-    <td>Mark 2</td>
+    <td>标记2</td>
     <td><img src="../assets/palette/circles/latte_mauve.png" height="16" width="16"/></td>
-    <td>Mauve</td>
+    <td>淡紫色</td>
     <td><img src="../assets/palette/circles/frappe_mauve.png" height="16" width="16"/></td>
-    <td>Mauve</td>
+    <td>淡紫色</td>
     <td><img src="../assets/palette/circles/macchiato_mauve.png" height="16" width="16"/></td>
-    <td>Mauve</td>
+    <td>淡紫色</td>
     <td><img src="../assets/palette/circles/mocha_mauve.png" height="16" width="16"/></td>
-    <td>Mauve</td>
+    <td>淡紫色</td>
   </tr>
   <tr>
-    <td>Mark 2 Text</td>
+    <td>标记2文本</td>
     <td><img src="../assets/palette/circles/latte_base.png" height="16" width="16"/></td>
-    <td>Base</td>
+    <td>基底</td>
     <td><img src="../assets/palette/circles/frappe_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/macchiato_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/mocha_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
   </tr>
   <tr>
-    <td>Mark 3</td>
+    <td>标记3</td>
     <td><img src="../assets/palette/circles/latte_sapphire.png" height="16" width="16"/></td>
-    <td>Sapphire</td>
+    <td>蓝宝石</td>
     <td><img src="../assets/palette/circles/frappe_sapphire.png" height="16" width="16"/></td>
-    <td>Sapphire</td>
+    <td>蓝宝石</td>
     <td><img src="../assets/palette/circles/macchiato_sapphire.png" height="16" width="16"/></td>
-    <td>Sapphire</td>
+    <td>蓝宝石</td>
     <td><img src="../assets/palette/circles/mocha_sapphire.png" height="16" width="16"/></td>
-    <td>Sapphire</td>
+    <td>蓝宝石</td>
   </tr>
   <tr>
-    <td>Mark 3 Text</td>
+    <td>标记3文本</td>
     <td><img src="../assets/palette/circles/latte_base.png" height="16" width="16"/></td>
-    <td>Base</td>
+    <td>基底</td>
     <td><img src="../assets/palette/circles/frappe_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/macchiato_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
     <td><img src="../assets/palette/circles/mocha_crust.png" height="16" width="16"/></td>
-    <td>Crust</td>
+    <td>表层</td>
   </tr>
 </table>
 
-#### <sup>1)</sup> ANSI Color Generation
+### <sup>1)</sup> ANSI 色彩生成
 
 > [!NOTE]<br>
-> These bright colors are not necessarily "brighter" than the normal colors, but rather more bold and saturated.
+> 这些明亮色并非必然比普通颜色"更亮"，而是更加浓烈和饱和。
 
-The ANSI brights, excluding `black` and `white`, are automatically generated based on the following formulas:
+ANSI明亮色（不包括`black`和`white`）根据以下公式自动生成：
 
 <table>
   <tr>
-    <th>Mocha, Macchiato, Frappé</th>
-    <th>Latte</th>
+    <th>摩卡/玛奇雅朵/法芮</th>
+    <th>拿铁</th>
   </tr>
   <tr>
     <td>
-<pre><code>color.lightness * 0.94
-color.chroma + 8
-color.hue + 2</code></pre>
+<pre><code>颜色亮度 * 0.94
+色度 + 8
+色相 + 2</code></pre>
     </td>
     <td>
-<pre><code>color.lightness * 1.09
+<pre><code>颜色亮度 * 1.09
 <br>
-color.hue + 2</code></pre>
+色相 + 2</code></pre>
     </td>
   </tr>
 </table>
 
-The color values for `black` and `white` are mapped as shown below:
+`black`和`white`的色彩值映射如下：
 
 <table>
   <tr>
-    <th>Mocha, Macchiato, Frappé</th>
-    <th>Latte</th>
+    <th>摩卡/玛奇雅朵/法芮</th>
+    <th>拿铁</th>
   </tr>
   <tr>
     <td>
-      Black (0): <code>Surface 1</code><br>
-      Black (8): <code>Surface 2</code><br>
-      White (7): <code>Subtext 0</code><br>
-      White (15): <code>Subtext 1</code>
+      黑 (0): <code>表面 1</code><br>
+      黑 (8): <code>表面 2</code><br>
+      白 (7): <code>副文本 0</code><br>
+      白 (15): <code>副文本 1</code>
     </td>
     <td>
-      Black  (0): <code>Subtext 1</code><br>
-      Black  (8): <code>Subtext 0</code><br>
-      White  (7): <code>Surface 2</code><br>
-      White (15): <code>Surface 1</code>
+      黑 (0): <code>副文本 1</code><br>
+      黑 (8): <code>副文本 0</code><br>
+      白 (7): <code>表面 2</code><br>
+      白 (15): <code>表面 1</code>
     </td>
   </tr>
 </table>
 
-### Code Editors
+### 代码编辑器
 
 > [!IMPORTANT]
-> **This is still a work-in-progress.** Additionally, it's
-> important to acknowledge that different editors have different capabilities
-> for theming, please use your own judgement in accordance with the main colors
-> defined below.
+> **当前仍在开发中。** 另外需要注意
+> 不同编辑器对主题的支持能力各不相同，
+> 请根据下方定义的主色调自行判断使用。
+> 定义如下:
 
 <table>
   <tr>
@@ -657,16 +657,16 @@ The color values for `black` and `white` are mapped as shown below:
       <table>
         <tr>
           <th colspan="3" align="center">
-            <h4>Language Defaults</h4>
+            <h4>语言默认值</h4>
           </th>
         </tr>
         <tr>
-          <th>Syntax</th>
-          <th colspan="2">Color</th>
+          <th>语法</th>
+          <th colspan="2">颜色</th>
         </tr>
         <tr>
-          <td>Keyword</td>
-          <td>Mauve</td>
+          <td>关键字</td>
+          <td>紫红色</td>
           <td>
             <img src="../assets/palette/circles/latte_mauve.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_mauve.png" height="16" width="16"/>
@@ -675,8 +675,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Strings</td>
-          <td>Green</td>
+          <td>字符串</td>
+          <td>绿色</td>
           <td>
             <img src="../assets/palette/circles/latte_green.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_green.png" height="16" width="16"/>
@@ -685,8 +685,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Symbols, Atoms</td>
-          <td>Red</td>
+          <td>符号、原子</td>
+          <td>红色</td>
           <td>
             <img src="../assets/palette/circles/latte_red.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_red.png" height="16" width="16"/>
@@ -696,10 +696,10 @@ The color values for `black` and `white` are mapped as shown below:
         </tr>
         <tr>
           <td>
-            Escape Sequences<br>
-            Regex
+            转义序列<br>
+            正则表达式
           </td>
-          <td>Pink</td>
+          <td>粉色</td>
           <td>
             <img src="../assets/palette/circles/latte_pink.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_pink.png" height="16" width="16"/>
@@ -708,8 +708,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Comments</td>
-          <td>Overlay 2</td>
+          <td>注释</td>
+          <td>覆盖层2</td>
           <td>
             <img src="../assets/palette/circles/latte_overlay2.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_overlay2.png" height="16" width="16"/>
@@ -718,8 +718,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Constants, Numbers</td>
-          <td>Peach</td>
+          <td>常量、数字</td>
+          <td>桃色</td>
           <td>
             <img src="../assets/palette/circles/latte_peach.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_peach.png" height="16" width="16"/>
@@ -728,8 +728,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Operators</td>
-          <td>Sky</td>
+          <td>运算符</td>
+          <td>天空蓝</td>
           <td>
             <img src="../assets/palette/circles/latte_sky.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_sky.png" height="16" width="16"/>
@@ -738,8 +738,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Braces, Delimiters</td>
-          <td>Overlay 2</td>
+          <td>括号、分隔符</td>
+          <td>覆盖层2</td>
           <td>
             <img src="../assets/palette/circles/latte_overlay2.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_overlay2.png" height="16" width="16"/>
@@ -748,8 +748,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Methods, Functions</td>
-          <td>Blue</td>
+          <td>方法、函数</td>
+          <td>蓝色</td>
           <td>
             <img src="../assets/palette/circles/latte_blue.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_blue.png" height="16" width="16"/>
@@ -758,8 +758,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Parameters</td>
-          <td>Maroon</td>
+          <td>参数</td>
+          <td>栗色</td>
           <td>
             <img src="../assets/palette/circles/latte_maroon.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_maroon.png" height="16" width="16"/>
@@ -768,8 +768,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Builtins</td>
-          <td>Red</td>
+          <td>内置函数</td>
+          <td>红色</td>
           <td>
             <img src="../assets/palette/circles/latte_red.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_red.png" height="16" width="16"/>
@@ -779,11 +779,11 @@ The color values for `black` and `white` are mapped as shown below:
         </tr>
         <tr>
           <td>
-            Classes, Interfaces,<br>
-            Annotations, Metadata,<br>
-            Enums, Types
+            类、接口、<br>
+            注解、元数据、<br>
+            枚举、类型
           </td>
-          <td>Yellow</td>
+          <td>黄色</td>
           <td>
             <img src="../assets/palette/circles/latte_yellow.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_yellow.png" height="16" width="16"/>
@@ -792,8 +792,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Enum Variants</td>
-          <td>Teal</td>
+          <td>枚举变体</td>
+          <td>水鸭色</td>
           <td>
             <img src="../assets/palette/circles/latte_teal.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_teal.png" height="16" width="16"/>
@@ -803,10 +803,10 @@ The color values for `black` and `white` are mapped as shown below:
         </tr>
         <tr>
           <td>
-            Property<br>
-            (e.g. JSON keys)
+            属性<br>
+            (如JSON键)
           </td>
-          <td>Blue</td>
+          <td>蓝色</td>
           <td>
             <img src="../assets/palette/circles/latte_blue.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_blue.png" height="16" width="16"/>
@@ -816,10 +816,10 @@ The color values for `black` and `white` are mapped as shown below:
         </tr>
         <tr>
           <td>
-            Attributes<br>
-            (e.g. XML-style attributes)
+            属性<br>
+            (如XML风格属性)
           </td>
-          <td>Yellow</td>
+          <td>黄色</td>
           <td>
             <img src="../assets/palette/circles/latte_yellow.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_yellow.png" height="16" width="16"/>
@@ -829,9 +829,9 @@ The color values for `black` and `white` are mapped as shown below:
         </tr>
         <tr>
           <td>
-            Macros
+            宏
           </td>
-          <td>Rosewater</td>
+          <td>玫瑰水色</td>
           <td>
             <img src="../assets/palette/circles/latte_rosewater.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_rosewater.png" height="16" width="16"/>
@@ -845,16 +845,16 @@ The color values for `black` and `white` are mapped as shown below:
       <table>
         <tr>
           <th colspan="3" align="center">
-            <h4>General</h4>
+            <h4>通用</h4>
           </th>
         </tr>
         <tr>
-          <th>Syntax</th>
-          <th colspan="2">Color</th>
+          <th>语法</th>
+          <th colspan="2">颜色</th>
         </tr>
         <tr>
-          <td>Cursor</td>
-          <td>Rosewater</td>
+          <td>光标</td>
+          <td>玫瑰水色</td>
           <td>
             <img src="../assets/palette/circles/latte_rosewater.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_rosewater.png" height="16" width="16"/>
@@ -863,10 +863,10 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Cursor Line</td>
+          <td>光标行</td>
           <td>
-            Text<br>
-            <strong>10% Opacity</strong>
+            文本<br>
+            <strong>10%不透明度</strong>
           </td>
           <td>
             <img src="../assets/palette/circles/latte_text.png" height="16" width="16"/>
@@ -876,8 +876,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Line Numbers</td>
-          <td>Overlay 1</td>
+          <td>行号</td>
+          <td>覆盖层1</td>
           <td>
             <img src="../assets/palette/circles/latte_overlay1.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_overlay1.png" height="16" width="16"/>
@@ -886,8 +886,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Active Line Number</td>
-          <td>Lavender</td>
+          <td>活动行号</td>
+          <td>薰衣草色</td>
           <td>
             <img src="../assets/palette/circles/latte_lavender.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_lavender.png" height="16" width="16"/>
@@ -897,14 +897,14 @@ The color values for `black` and `white` are mapped as shown below:
         </tr>
         <tr>
           <td>
-            Normal Links<br>
-            Followed Links<br>
-            On Hover Links
+            普通链接<br>
+            已访问链接<br>
+            悬停链接
           </td>
           <td>
-            Blue<br>
-            Lavender<br>
-            Sky
+            蓝色<br>
+            薰衣草色<br>
+            天空蓝
           </td>
           <td>
             <img src="../assets/palette/circles/latte_blue.png" height="16" width="16"/>
@@ -923,16 +923,16 @@ The color values for `black` and `white` are mapped as shown below:
         </tr>
         <tr>
           <td>
-            Search FG<br>
-            Search BG<br>
-            Active Search FG<br>
-            Active Search BG
+            搜索前景色<br>
+            搜索背景色<br>
+            活动搜索前景色<br>
+            活动搜索背景色
           </td>
           <td>
-            Text<br>
-            Teal<br>
-            Text<br>
-            Red
+            文本<br>
+            水鸭色<br>
+            文本<br>
+            红色
           </td>
           <td>
             <img src="../assets/palette/circles/latte_text.png" height="16" width="16"/>
@@ -954,8 +954,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Errors</td>
-          <td>Red</td>
+          <td>错误</td>
+          <td>红色</td>
           <td>
             <img src="../assets/palette/circles/latte_red.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_red.png" height="16" width="16"/>
@@ -964,8 +964,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Warnings</td>
-          <td>Yellow<br>Peach</td>
+          <td>警告</td>
+          <td>黄色<br>桃色</td>
           <td>
             <img src="../assets/palette/circles/latte_yellow.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_yellow.png" height="16" width="16"/>
@@ -978,8 +978,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Information</td>
-          <td>Teal</td>
+          <td>信息</td>
+          <td>水鸭色</td>
           <td>
             <img src="../assets/palette/circles/latte_teal.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_teal.png" height="16" width="16"/>
@@ -999,18 +999,18 @@ The color values for `black` and `white` are mapped as shown below:
         <tr>
           <th colspan="3" align="center">
             <h4>
-              Rainbow Highlights<br>
-              (Brackets, Headings, etc.)
+              彩虹高亮<br>
+              （括号，标题等）
             </h4>
           </th>
         </tr>
         <tr>
-          <th>Syntax</th>
-          <th colspan="2">Color</th>
+          <th>语法</th>
+          <th colspan="2">颜色</th>
         </tr>
         <tr>
-          <td>Color #1</td>
-          <td>Red</td>
+          <td>颜色 #1</td>
+          <td>红色</td>
           <td>
             <img src="../assets/palette/circles/latte_red.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_red.png" height="16" width="16"/>
@@ -1019,8 +1019,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #2</td>
-          <td>Peach</td>
+          <td>颜色 #2</td>
+          <td>桃色</td>
           <td>
             <img src="../assets/palette/circles/latte_peach.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_peach.png" height="16" width="16"/>
@@ -1029,8 +1029,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #3</td>
-          <td>Yellow</td>
+          <td>颜色 #3</td>
+          <td>黄色</td>
           <td>
             <img src="../assets/palette/circles/latte_yellow.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_yellow.png" height="16" width="16"/>
@@ -1039,8 +1039,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #4</td>
-          <td>Green</td>
+          <td>颜色 #4</td>
+          <td>绿色</td>
           <td>
             <img src="../assets/palette/circles/latte_green.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_green.png" height="16" width="16"/>
@@ -1049,8 +1049,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #5</td>
-          <td>Sapphire</td>
+          <td>颜色 #5</td>
+          <td>蓝宝石色</td>
           <td>
             <img src="../assets/palette/circles/latte_sapphire.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_sapphire.png" height="16" width="16"/>
@@ -1059,8 +1059,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #6</td>
-          <td>Lavender</td>
+          <td>颜色 #6</td>
+          <td>薰衣草色</td>
           <td>
             <img src="../assets/palette/circles/latte_lavender.png" height="16" width="16"/>
             <img src="../assets/palette/circles/frappe_lavender.png" height="16" width="16"/>
@@ -1074,16 +1074,16 @@ The color values for `black` and `white` are mapped as shown below:
       <table>
         <tr>
           <th colspan="3" align="center">
-            <h4>Rainbow Parameters &<br/> Local Variables</h4>
+            <h4>彩虹参数 &<br/> 局部变量</h4>
           </th>
         </tr>
         <tr>
-          <th>Syntax</th>
-          <th colspan="2">Color</th>
+          <th>语法</th>
+          <th colspan="2">颜色</th>
         </tr>
         <tr>
-          <td>Color #1</td>
-          <td>60% Text/Red Mix</td>
+          <td>颜色 #1</td>
+          <td>60% 文字/红色混合</td>
           <td>
             <img src="../assets/palette/circles/semantic/latte_semantic_red.png" height="16" width="16"/>
             <img src="../assets/palette/circles/semantic/frappe_semantic_red.png" height="16" width="16"/>
@@ -1092,8 +1092,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #2</td>
-          <td>60% Text/Yellow Mix</td>
+          <td>颜色 #2</td>
+          <td>60% 文字/黄色混合</td>
           <td>
             <img src="../assets/palette/circles/semantic/latte_semantic_yellow.png" height="16" width="16"/>
             <img src="../assets/palette/circles/semantic/frappe_semantic_yellow.png" height="16" width="16"/>
@@ -1102,8 +1102,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #3</td>
-          <td>60% Text/Green Mix</td>
+          <td>颜色 #3</td>
+          <td>60% 文字/绿色混合</td>
           <td>
             <img src="../assets/palette/circles/semantic/latte_semantic_green.png" height="16" width="16"/>
             <img src="../assets/palette/circles/semantic/frappe_semantic_green.png" height="16" width="16"/>
@@ -1112,8 +1112,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #4</td>
-          <td>60% Text/Teal Mix</td>
+          <td>颜色 #4</td>
+          <td>60% 文字/青绿色混合</td>
           <td>
             <img src="../assets/palette/circles/semantic/latte_semantic_teal.png" height="16" width="16"/>
             <img src="../assets/palette/circles/semantic/frappe_semantic_teal.png" height="16" width="16"/>
@@ -1122,8 +1122,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #5</td>
-          <td>60% Text/Blue Mix</td>
+          <td>颜色 #5</td>
+          <td>60% 文字/蓝色混合</td>
           <td>
             <img src="../assets/palette/circles/semantic/latte_semantic_blue.png" height="16" width="16"/>
             <img src="../assets/palette/circles/semantic/frappe_semantic_blue.png" height="16" width="16"/>
@@ -1132,8 +1132,8 @@ The color values for `black` and `white` are mapped as shown below:
           </td>
         </tr>
         <tr>
-          <td>Color #6</td>
-          <td>60% Text/Mauve Mix</td>
+          <td>颜色 #6</td>
+          <td>60% 文字/淡紫色混合</td>
           <td>
             <img src="../assets/palette/circles/semantic/latte_semantic_mauve.png" height="16" width="16"/>
             <img src="../assets/palette/circles/semantic/frappe_semantic_mauve.png" height="16" width="16"/>
@@ -1146,22 +1146,23 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
 </table>
 
+
 <table>
   <tr>
     <th colspan="3" align="center">
-      <h4>Diff & Merge</h4>
+      <h4>差异与合并</h4>
     </th>
   </tr>
   <tr>
-    <th>Function</th>
-    <th colspan="2">Color</th>
+    <th>功能</th>
+    <th colspan="2">颜色</th>
   </tr>
   <tr>
     <td>
-      Diff Header
+      差异标题
     </td>
     <td>
-      Blue
+      蓝色
     </td>
     <td>
       <img src="../assets/palette/circles/latte_blue.png" height="16" width="16"/>
@@ -1172,10 +1173,10 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
   <tr>
     <td>
-      Index Metadata
+      索引元数据
     </td>
     <td>
-      Overlay2
+      覆盖层2
     </td>
     <td>
       <img src="../assets/palette/circles/latte_overlay2.png" height="16" width="16"/>
@@ -1186,10 +1187,10 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
   <tr>
     <td>
-      File Path Markers
+      文件路径标记
     </td>
     <td>
-      Pink
+      粉色
     </td>
     <td>
       <img src="../assets/palette/circles/latte_pink.png" height="16" width="16"/>
@@ -1200,10 +1201,10 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
   <tr>
     <td>
-      Hunk Header
+      块标题
     </td>
     <td>
-      Peach
+      桃色
     </td>
     <td>
       <img src="../assets/palette/circles/latte_peach.png" height="16" width="16"/>
@@ -1214,12 +1215,12 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
   <tr>
     <td>
-      Changed Text BG<br>
-      Changed Line BG
+      已更改文本背景<br>
+      已更改行背景
     </td>
     <td>
-      Blue <strong>(10% - 20% Opacity)</strong><br>
-      Blue <strong>(15% - 25% Opacity)</strong>
+      蓝色 <strong>（不透明度10% - 20%）</strong><br>
+      蓝色 <strong>（不透明度15% - 25%）</strong>
     </td>
     <td>
       <img src="../assets/palette/circles/latte_blue.png" height="16" width="16"/>
@@ -1234,12 +1235,12 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
   <tr>
     <td>
-      Inserted Text BG<br>
-      Inserted Line BG
+      插入文本背景<br>
+      插入行背景
     </td>
     <td>
-      Green <strong>(10% - 20% Opacity)</strong><br>
-      Green <strong>(15% - 25% Opacity)</strong>
+      绿色 <strong>（不透明度10% - 20%）</strong><br>
+      绿色 <strong>（不透明度15% - 25%）</strong>
     </td>
     <td>
       <img src="../assets/palette/circles/latte_green.png" height="16" width="16"/>
@@ -1254,12 +1255,12 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
   <tr>
     <td>
-      Removed Text BG<br>
-      Removed Line BG
+      删除文本背景<br>
+      删除行背景
     </td>
     <td>
-      Red <strong>(10% - 20% Opacity)</strong><br>
-      Red <strong>(15% - 25% Opacity)</strong>
+      红色 <strong>（不透明度10% - 20%）</strong><br>
+      红色 <strong>（不透明度15% - 25%）</strong>
     </td>
     <td>
       <img src="../assets/palette/circles/latte_red.png" height="16" width="16"/>
@@ -1274,19 +1275,20 @@ The color values for `black` and `white` are mapped as shown below:
   </tr>
 </table>
 
+
 <table>
   <tr>
     <th colspan="3" align="center">
-      <h4>Debugging</h4>
+      <h4>调试</h4>
     </th>
   </tr>
   <tr>
-    <th>Function</th>
-    <th colspan="2">Color</th>
+    <th>功能</th>
+    <th colspan="2">颜色</th>
   </tr>
   <tr>
-    <td>Breakpoint Icon</td>
-    <td>Red</td>
+    <td>断点图标</td>
+    <td>红色</td>
     <td>
       <img src="../assets/palette/circles/latte_red.png" height="16" width="16"/>
       <img src="../assets/palette/circles/frappe_red.png" height="16" width="16"/>
@@ -1295,13 +1297,13 @@ The color values for `black` and `white` are mapped as shown below:
     </td>
   </tr>
   <tr>
-    <td>Breakpoint Line</td>
-    <td>Transparent</td>
+    <td>断点行</td>
+    <td>透明</td>
     <td>--------------</td>
   </tr>
   <tr>
-    <td>Breakpoint Line During Execution</td>
-    <td>Yellow<br><strong>15% Opacity</strong></td>
+    <td>执行时断点行</td>
+    <td>黄色<br><strong>15% 透明度</strong></td>
     <td>
       <img src="../assets/palette/circles/latte_yellow.png" height="16" width="16"/>
       <img src="../assets/palette/circles/frappe_yellow.png" height="16" width="16"/>
@@ -1310,3 +1312,4 @@ The color values for `black` and `white` are mapped as shown below:
     </td>
   </tr>
 </table>
+
