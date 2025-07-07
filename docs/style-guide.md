@@ -228,10 +228,10 @@
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">拿铁</th>
-    <th colspan="2">冰沙</th>
-    <th colspan="2">玛奇朵</th>
-    <th colspan="2">摩卡</th>
+    <th colspan="2">Latte</th>
+    <th colspan="2">Frappé</th>
+    <th colspan="2">Macchiato</th>
+    <th colspan="2">Mocha</th>
   </tr>
   <tr>
     <td>光标</td>
@@ -293,10 +293,10 @@
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">拿铁</th>
-    <th colspan="2">冰沙</th>
-    <th colspan="2">玛奇朵</th>
-    <th colspan="2">摩卡</th>
+    <th colspan="2">Latte</th>
+    <th colspan="2">Frappé</th>
+    <th colspan="2">Macchiato</th>
+    <th colspan="2">Mocha</th>
   </tr>
   <tr>
     <td>color0</td>
@@ -391,10 +391,10 @@
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">拿铁</th>
-    <th colspan="2">冰沙</th>
-    <th colspan="2">玛奇朵</th>
-    <th colspan="2">摩卡</th>
+    <th colspan="2">Latte</th>
+    <th colspan="2">Frappé</th>
+    <th colspan="2">Macchiato</th>
+    <th colspan="2">Mocha</th>
   </tr>
   <tr>
     <td>color8</td>
@@ -489,10 +489,10 @@
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">拿铁</th>
-    <th colspan="2">冰沙</th>
-    <th colspan="2">玛奇朵</th>
-    <th colspan="2">摩卡</th>
+    <th colspan="2">Latte</th>
+    <th colspan="2">Frappé</th>
+    <th colspan="2">Macchiato</th>
+    <th colspan="2">Mocha</th>
   </tr>
   <tr>
     <td>color16</td>
@@ -521,10 +521,10 @@
   </tr>
   <tr>
     <th></th>
-    <th colspan="2">拿铁</th>
-    <th colspan="2">冰沙</th>
-    <th colspan="2">玛奇朵</th>
-    <th colspan="2">摩卡</th>
+    <th colspan="2">Latte</th>
+    <th colspan="2">Frappé</th>
+    <th colspan="2">Macchiato</th>
+    <th colspan="2">Mocha</th>
   </tr>
   <tr>
     <td>标记1</td>
@@ -603,8 +603,8 @@ ANSI明亮色（不包括`black`和`white`）根据以下公式自动生成：
 
 <table>
   <tr>
-    <th>摩卡/玛奇雅朵/法芮</th>
-    <th>拿铁</th>
+    <th>Mocha/玛奇雅朵/法芮</th>
+    <th>Latte</th>
   </tr>
   <tr>
     <td>
@@ -624,8 +624,8 @@ ANSI明亮色（不包括`black`和`white`）根据以下公式自动生成：
 
 <table>
   <tr>
-    <th>摩卡/玛奇雅朵/法芮</th>
-    <th>拿铁</th>
+    <th>Mocha/玛奇雅朵/法芮</th>
+    <th>Latte</th>
   </tr>
   <tr>
     <td>
