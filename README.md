@@ -10,13 +10,13 @@
 </h6>
 
 <h6 align="center">
-  <a href="https://github.com/catppuccin/catppuccin#-palette">Palette</a>
+  <a href="https://github.com/catppuccin/catppuccin#-palette">调色板</a>
   ·
-  <a href="https://github.com/catppuccin/catppuccin#-ports-and-more">Ports</a>
+  <a href="https://github.com/catppuccin/catppuccin#-ports-and-more">移植版本</a>
   ·
-  <a href="https://github.com/catppuccin/catppuccin#-showcase">Showcase</a>
+  <a href="https://github.com/catppuccin/catppuccin#-showcase">作品展示</a>
   ·
-  <a href="https://github.com/catppuccin/catppuccin/tree/main/docs">Docs</a>
+  <a href="https://github.com/catppuccin/catppuccin/tree/main/docs">文档</a>
 </h6>
 
 <p align="center">
@@ -33,7 +33,7 @@
 &nbsp;
 
 <p align="center">
-Catppuccin is a community-driven pastel theme that aims to be the middle ground between low and high-contrast themes. It consists of 4 soothing warm flavors with 26 eye-candy colors each, perfect for coding, designing, and much more! In addition, this repository tracks the development of the actual color palette, <a href="https://github.com/catppuccin/catppuccin/tree/main/docs"><b>the project's documentation</b></a>, organization-wide assets, resources and code samples for maintainers/developers.
+Catppuccin是一个社区驱动的柔和色调主题，旨在成为低对比度与高对比度主题之间的平衡点。它包含4种舒缓温暖的风格，每种风格都有26种赏心悦目的颜色，非常适合编程、设计等多种用途！此外，该仓库还跟踪实际调色板的开发进度、<a href="https://github.com/catppuccin/catppuccin/tree/main/docs"><b>项目文档</b></a>、组织范围内的资源、素材以及为维护者/开发者提供的代码示例。
 </p>
 
 <p align="center">
@@ -87,27 +87,25 @@ Catppuccin is a community-driven pastel theme that aims to be the middle ground 
 </p>
 
 <p align="center">
-Join our community!
+加入我们的社区！
 </p>
 
 &nbsp;
 
-### 🧠 Design Philosophy
+### 🧠 设计理念
 
-- **Colorful is better than colorless**: the colorfulness of something contributes to the distinction amongst the parts
-  of that _something_, making it marginally easier to understand how things are structured.
-- **There should be balance**: not too dull, not too bright. Suitability under various light conditions is a must.
-- **Harmony is superior to dissonance**: vivacious colors must complement each other.
+- **多彩胜于单调**：事物的丰富色彩有助于区分其组成部分，从而略微提升对结构关系的理解。
+- **追求平衡之道**：既不过分沉闷，也不过分刺眼。必须确保在各种光线条件下都适宜使用。
+- **和谐高于冲突**：鲜活的色彩必须彼此映衬。
 
 &nbsp;
 
-### 🎨 Palette
+### 🎨 调色板
 
-**Catppuccin** consists of 4 beautiful pastel color palettes, named **flavors**. All the details can be found below.<br>
-If you want to use them for your own project, refer to our [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) for general use cases and guidelines. Additionally, you can find integrations with popular frameworks and tools in [catppuccin/palette](https://github.com/catppuccin/palette).
+**Catppuccin** 包含4组精美的柔色调色板，称为**风味**。所有细节如下所示。<br>
+若要在您的项目中使用它们，请参考我们的[风格指南](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)了解通用场景和规范。此外，您可以在[catppuccin/palette](https://github.com/catppuccin/palette)找到与主流框架和工具的集成方案。
 
-Already have a project making use of our palette? Don't forget to add it to
-our [showcase](#-showcase) section below!
+已有项目使用了我们的调色板？别忘了将其添加到下方的[作品展示](#-showcase)板块！
 <br><img src="assets/misc/transparent.png" height="10" width="0" />
 
 <details>
@@ -890,25 +888,21 @@ our [showcase](#-showcase) section below!
 </table>
 </details>
 
-&nbsp;
-
-### 👐 Contributing
+### 👐 贡献
 
 > [!NOTE]<br>
-> If you would like to submit a port or learn how to port Catppuccin to a program, please refer to
-> the [port-creation.md](https://github.com/catppuccin/catppuccin/blob/main/docs/port-creation.md)
+> 如果您想提交一个移植版本或学习如何将Catppuccin移植到一个程序中，请参考
+> [port-creation.md](https://github.com/catppuccin/catppuccin/blob/main/docs/port-creation.md)
 
-See [CONTRIBUTING.md](https://github.com/catppuccin/catppuccin/blob/main/CONTRIBUTING.md)
+详见 [CONTRIBUTING.md](https://github.com/catppuccin/catppuccin/blob/main/CONTRIBUTING.md)
 
-&nbsp;
+### 🪵 移植版本及其他！
 
-### 🪵 Ports and more!
-
-Catppuccin is available for various apps and in different formats. Here is a list of them:
+Catppuccin可用于各种应用程序并以不同格式提供。以下是它们的列表：
 
 <!-- AUTOGEN:PORTLIST START -->
-<!-- the following section is auto-generated, do not edit -->
-<details open>
+<!-- 以下部分是自动生成的，请勿编辑 -->
+<details>
 <summary>👾 Code Editors & IDEs</summary>
 
 - [Binary Ninja](https://github.com/catppuccin/binary-ninja)
@@ -946,7 +940,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Zed Icons](https://github.com/catppuccin/zed-icons)
 
 </details>
-<details open>
+<details>
 <summary>💭 Development Tools</summary>
 
 - [boringproxy](https://github.com/catppuccin/userstyles/tree/main/styles/boringproxy)
@@ -991,7 +985,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [web.dev](https://github.com/catppuccin/userstyles/tree/main/styles/web.dev)
 
 </details>
-<details open>
+<details>
 <summary>📜 Documentation Generators</summary>
 
 - [Docsify](https://github.com/catppuccin/docsify)
@@ -1001,7 +995,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [VitePress](https://github.com/catppuccin/vitepress)
 
 </details>
-<details open>
+<details>
 <summary>🖍️ Syntax Highlighting</summary>
 
 - [Chroma](https://github.com/catppuccin/chroma)
@@ -1015,7 +1009,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [zsh-syntax-highlighting](https://github.com/catppuccin/zsh-syntax-highlighting)
 
 </details>
-<details open>
+<details>
 <summary>📚 Libraries</summary>
 
 - [Elixir](https://github.com/catppuccin/elixir)
@@ -1034,7 +1028,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [V](https://github.com/catppuccin/v)
 
 </details>
-<details open>
+<details>
 <summary>🐚 CLI Tools</summary>
 
 - [Asciinema](https://github.com/catppuccin/asciinema)
@@ -1062,7 +1056,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Zellij](https://github.com/catppuccin/zellij)
 
 </details>
-<details open>
+<details>
 <summary>🌱 Terminals</summary>
 
 - [Alacritty](https://github.com/catppuccin/alacritty)
@@ -1100,7 +1094,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Zutty](https://github.com/catppuccin/zutty)
 
 </details>
-<details open>
+<details>
 <summary>🔧 System</summary>
 
 - [Base16](https://github.com/catppuccin/base16)
@@ -1128,7 +1122,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Xresources](https://github.com/catppuccin/xresources)
 
 </details>
-<details open>
+<details>
 <summary>👢 Boot Loaders</summary>
 
 - [GRUB](https://github.com/catppuccin/grub)
@@ -1137,7 +1131,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [rEFInd](https://github.com/catppuccin/refind)
 
 </details>
-<details open>
+<details>
 <summary>😈 Notification Daemons</summary>
 
 - [Dunst](https://github.com/catppuccin/dunst)
@@ -1146,7 +1140,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [swaync](https://github.com/catppuccin/swaync)
 
 </details>
-<details open>
+<details>
 <summary>🖥️ Desktop Environments</summary>
 
 - [COSMIC Desktop](https://github.com/catppuccin/cosmic-desktop)
@@ -1155,7 +1149,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Regolith](https://github.com/catppuccin/regolith)
 
 </details>
-<details open>
+<details>
 <summary>🪟 Window Managers</summary>
 
 - [GlazeWM](https://github.com/catppuccin/glazewm)
@@ -1164,7 +1158,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Openbox](https://github.com/catppuccin/openbox)
 
 </details>
-<details open>
+<details>
 <summary>🗂️ File Managers</summary>
 
 - [File Pilot](https://github.com/catppuccin/file-pilot)
@@ -1178,7 +1172,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Yazi](https://github.com/catppuccin/yazi)
 
 </details>
-<details open>
+<details>
 <summary>🗃️ Application Launchers</summary>
 
 - [Alfred](https://github.com/catppuccin/alfred)
@@ -1195,7 +1189,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Ulauncher](https://github.com/catppuccin/ulauncher)
 
 </details>
-<details open>
+<details>
 <summary>🏄 Browsers</summary>
 
 - [Firefox](https://github.com/catppuccin/firefox)
@@ -1206,7 +1200,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Zen Browser](https://github.com/catppuccin/zen-browser)
 
 </details>
-<details open>
+<details>
 <summary>🧩 Browser Extensions</summary>
 
 - [Dark Reader](https://github.com/catppuccin/dark-reader)
@@ -1221,7 +1215,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Yomitan](https://github.com/catppuccin/yomitan)
 
 </details>
-<details open>
+<details>
 <summary>🔎 Search Engines</summary>
 
 - [Brave Search](https://github.com/catppuccin/userstyles/tree/main/styles/brave-search)
@@ -1235,7 +1229,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Whoogle](https://github.com/catppuccin/whoogle)
 
 </details>
-<details open>
+<details>
 <summary>📦 Package Registries</summary>
 
 - [crates.io](https://github.com/catppuccin/userstyles/tree/main/styles/crates.io)
@@ -1244,7 +1238,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [PyPI](https://github.com/catppuccin/userstyles/tree/main/styles/pypi)
 
 </details>
-<details open>
+<details>
 <summary>🗺️ Translation Tools</summary>
 
 - [Crowdin](https://github.com/catppuccin/userstyles/tree/main/styles/crowdin)
@@ -1254,7 +1248,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Lingva](https://github.com/catppuccin/userstyles/tree/main/styles/lingva)
 
 </details>
-<details open>
+<details>
 <summary>🧠 Wikis</summary>
 
 - [Arch Wiki](https://github.com/catppuccin/userstyles/tree/main/styles/arch-wiki)
@@ -1263,7 +1257,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Wikiwand](https://github.com/catppuccin/userstyles/tree/main/styles/wikiwand)
 
 </details>
-<details open>
+<details>
 <summary>📸 Photo & Video</summary>
 
 - [Canva](https://github.com/catppuccin/canva)
@@ -1275,7 +1269,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [ShareX](https://github.com/catppuccin/sharex)
 
 </details>
-<details open>
+<details>
 <summary>🎵 Music</summary>
 
 - [Cava](https://github.com/catppuccin/cava)
@@ -1295,7 +1289,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [YouTube Music](https://github.com/catppuccin/youtubemusic)
 
 </details>
-<details open>
+<details>
 <summary>📖 Productivity</summary>
 
 - [AlternativeTo](https://github.com/catppuccin/userstyles/tree/main/styles/alternativeto)
@@ -1334,7 +1328,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Vikunja](https://github.com/catppuccin/userstyles/tree/main/styles/vikunja)
 
 </details>
-<details open>
+<details>
 <summary>💌 Email Clients</summary>
 
 - [aerc](https://github.com/catppuccin/aerc)
@@ -1346,7 +1340,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Tuta](https://github.com/catppuccin/userstyles/tree/main/styles/tuta)
 
 </details>
-<details open>
+<details>
 <summary>🕹️ Game Development</summary>
 
 - [Godot](https://github.com/catppuccin/godot)
@@ -1354,14 +1348,14 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Unreal Engine](https://github.com/catppuccin/unreal-engine)
 
 </details>
-<details open>
+<details>
 <summary>🖼️ 3D Modelling</summary>
 
 - [Blockbench](https://github.com/catppuccin/blockbench)
 - [SolveSpace](https://github.com/catppuccin/solvespace)
 
 </details>
-<details open>
+<details>
 <summary>📝 Note Taking</summary>
 
 - [Amplenote](https://github.com/catppuccin/userstyles/tree/main/styles/amplenote)
@@ -1374,7 +1368,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Trilium Notes](https://github.com/catppuccin/trilium-notes)
 
 </details>
-<details open>
+<details>
 <summary>🎓 Education</summary>
 
 - [Anki](https://github.com/catppuccin/anki)
@@ -1383,13 +1377,13 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Quizlet](https://github.com/catppuccin/userstyles/tree/main/styles/quizlet)
 
 </details>
-<details open>
+<details>
 <summary>📰 News & Journalism</summary>
 
 - [Substack](https://github.com/catppuccin/userstyles/tree/main/styles/substack)
 
 </details>
-<details open>
+<details>
 <summary>📃 Document Viewers</summary>
 
 - [calibre](https://github.com/catppuccin/calibre)
@@ -1401,7 +1395,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Zathura](https://github.com/catppuccin/zathura)
 
 </details>
-<details open>
+<details>
 <summary>✨ Social Networking</summary>
 
 - [Aliucord](https://github.com/catppuccin/aliucord)
@@ -1438,7 +1432,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [WhatsApp Web](https://github.com/catppuccin/userstyles/tree/main/styles/whatsapp-web)
 
 </details>
-<details open>
+<details>
 <summary>🗣️ Discussion Forums</summary>
 
 - [Giscus](https://github.com/catppuccin/giscus)
@@ -1453,7 +1447,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [TabNews](https://github.com/catppuccin/userstyles/tree/main/styles/tabnews)
 
 </details>
-<details open>
+<details>
 <summary>🌈 Entertainment</summary>
 
 - [7TV](https://github.com/catppuccin/userstyles/tree/main/styles/seventv)
@@ -1472,7 +1466,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [YouTube](https://github.com/catppuccin/userstyles/tree/main/styles/youtube)
 
 </details>
-<details open>
+<details>
 <summary>🎮 Games</summary>
 
 - [Advent Of Code](https://github.com/catppuccin/userstyles/tree/main/styles/advent-of-code)
@@ -1492,7 +1486,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [ULTRAKILL](https://github.com/catppuccin/ultrakill)
 
 </details>
-<details open>
+<details>
 <summary>📊 Analytics</summary>
 
 - [bStats](https://github.com/catppuccin/userstyles/tree/main/styles/bstats)
@@ -1502,7 +1496,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [MangoHud](https://github.com/catppuccin/mangohud)
 
 </details>
-<details open>
+<details>
 <summary>🤖 Artificial Intelligence</summary>
 
 - [ChatGPT](https://github.com/catppuccin/userstyles/tree/main/styles/chatgpt)
@@ -1514,7 +1508,7 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 - [Stable Diffusion WebUI](https://github.com/catppuccin/stable-diffusion-web-ui)
 
 </details>
-<details open>
+<details>
 <summary>🏃 Health & Fitness</summary>
 
 - [Fitbit](https://github.com/catppuccin/fitbit)
@@ -1524,57 +1518,55 @@ Catppuccin is available for various apps and in different formats. Here is a lis
 
 &nbsp;
 
-### 🌟 Showcase
+### 🌟 作品展示
 
 > [!NOTE]<br>
-> Catppuccin staff reserve the right to remove and reject showcase additions if we determine the addition to be in
-> violation of our [CODE OF CONDUCT](https://github.com/catppuccin/.github/blob/main/CODE_OF_CONDUCT.md). Extremely
-> personal configurations and websites will **not** be added.
+> Catppuccin团队保留移除和拒绝展示作品的权利，如果我们判定该作品违反我们的[行为准则](https://github.com/catppuccin/.github/blob/main/CODE_OF_CONDUCT.md)。极度个人化的配置和网站将**不会**被添加。
 
-If you're making an application or tool using our palette, please let us know by adding it below!
+如果您正在使用我们的调色板开发应用或工具，请通过下方添加让我们知道！
 
 <!-- AUTOGEN:SHOWCASE START -->
-<!-- the following section is auto-generated, do not edit -->
-- [flotes.app](https://flotes.app/) - A free note-taking app enhanced with flashcard features.
-- [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) - Highly customizable theme for [Obsidian](https://obsidian.md).
-- [faerber](https://farbenfroh.io/faerber) - Website for applying custom color schemes to any wallpaper.
-- [Simple MP](https://github.com/lighttigerXIV/SimpleMP-Compose) - A simple music player based on Material You design.
-- [Comfy](https://github.com/Comfy-Themes/Spicetify) - A theme for [Spicetify](https://github.com/spicetify/spicetify-cli) with a basic catppuccin color scheme!
-- [Catppuccin Noctis](https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis) - An alternative to the official VSCode theme, with [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis) syntax highlighting.
-- [Catppuccin Noctis Icons](https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis-icons) - A companion icons theme for Catppuccin Noctis color theme. Forked from [Symbols Icon Theme](https://github.com/miguelsolorio/vscode-symbols).
-- [Mind Elixir](https://github.com/ssshooter/mind-elixir-core) - A framework agnostic JavaScript mind map core.
-- [Career Vault](https://careervault.io) - A remote job board that shows hundreds of new opportunities every day.
-- [Loungy](https://loungy.app) - An open-source application launcher in the vein of Raycast and Alfred.
-- [Reciper](https://github.com/judemont/reciper) - A simple, open-source recipe management app.
-- [Catbbrew](https://catbbrew.com/) - Easily create your own Catppuccin flavors.
-- [Tomatillo Timer](https://timer.flotes.app/?theme=mocha) - A modern pomodoro timer that syncs to your music
-- [Catppuccin Startpage](https://github.com/pivoshenko/catppuccin-startpage) - Aesthetic and clean startpage in Catppuccin style, hosted on GitHub Pages
-- [ccrs](https://github.com/336conaN/ccrs) - A simple yet highly configurable set of widgets for Rainmeter.
+<!-- 以下部分为自动生成，请勿编辑 -->
+- [flotes.app](https://flotes.app/) - 具备闪卡功能的免费笔记应用。
+- [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) - 高度可定制的[Obsidian](https://obsidian.md)主题。
+- [faerber](https://farbenfroh.io/faerber) - 为任意壁纸应用自定义配色方案的网站。
+- [Simple MP](https://github.com/lighttigerXIV/SimpleMP-Compose) - 基于Material You设计的简约音乐播放器。
+- [Comfy](https://github.com/Comfy-Themes/Spicetify) - [Spicetify](https://github.com/spicetify/spicetify-cli)主题，采用基础Catppuccin配色方案！
+- [Catppuccin Noctis](https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis) - 官方VSCode主题替代版，融合[Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)语法高亮。
+- [Catppuccin Noctis图标包](https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis-icons) - Catppuccin Noctis配色主题的配套图标包。衍生自[Symbols图标主题](https://github.com/miguelsolorio/vscode-symbols)。
+- [Mind Elixir](https://github.com/ssshooter/mind-elixir-core) - 框架无关的JavaScript思维导图核心库。
+- [Career Vault](https://careervault.io) - 每日展示数百个远程职位机会的工作平台。
+- [Loungy](https://loungy.app) - 开源应用启动器，风格类似Raycast和Alfred。
+- [Reciper](https://github.com/judemont/reciper) - 简约开源的食谱管理应用。
+- [Catbbrew](https://catbbrew.com/) - 轻松创建专属Catppuccin风味配色。
+- [Tomatillo Timer](https://timer.flotes.app/?theme=mocha) - 支持音乐同步的现代番茄钟计时器。
+- [Catppuccin起始页](https://github.com/pivoshenko/catppuccin-startpage) - GitHub Pages托管的Catppuccin风格美学极简起始页。
+- [ccrs](https://github.com/336conaN/ccrs) - Rainmeter用简约高配置性小组件套装。
 <!-- AUTOGEN:SHOWCASE END -->
 
 &nbsp;
 
-### 📜 License
+### 📜 许可证
 
-Catppuccin is released under the MIT license, which grants the following permissions:
+Catppuccin依据MIT许可证发布，授予以下权限：
 
-- Commercial use
-- Distribution
-- Modification
-- Private use
+- 商业用途
+- 分发
+- 修改
+- 私人使用
 
-For more convoluted language, see the [LICENSE](https://github.com/catppuccin/catppuccin/blob/main/LICENSE).
+完整法律文本详见[LICENSE](https://github.com/catppuccin/catppuccin/blob/main/LICENSE)。
 
 &nbsp;
 
-### ❤️ Gratitude
+### ❤️ 致谢
 
-Thanks to the following tools developing this project is possible:
+感谢以下工具使本项目开发成为可能：
 
-- [coolors.co](https://coolors.co/): A tool for creating and collecting color palettes.
-- [InkScape](https://inkscape.org/): Free and open-source vector graphics editor.
-- [colors_converter.asp](https://www.w3schools.com/colors/colors_converter.asp): Color format converter.
-- [mdigi.tools](https://mdigi.tools/): Web based digital tools.
+- [coolors.co](https://coolors.co/)：配色方案创建与收集工具。
+- [InkScape](https://inkscape.org/)：免费开源矢量图形编辑器。
+- [colors_converter.asp](https://www.w3schools.com/colors/colors_converter.asp)：色彩格式转换器。
+- [mdigi.tools](https://mdigi.tools/)：网页版数字工具集。
 
 &nbsp;
 
@@ -1583,9 +1575,9 @@ Thanks to the following tools developing this project is possible:
 </p>
 
 <p align="center">
-	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+	版权所有 &copy; 2021-至今 <a href="https://github.com/catppuccin" target="_blank">Catppuccin组织</a>
 </p>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=许可证&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
