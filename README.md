@@ -1,8 +1,8 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	<img src="https://raw.githubusercontent.com/AQiaoYo/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/AQiaoYo/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Catppuccin
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	<img src="https://raw.githubusercontent.com/AQiaoYo/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <h6 align="center">
@@ -10,17 +10,17 @@
 </h6>
 
 <h6 align="center">
-  <a href="https://github.com/catppuccin/catppuccin#-palette">调色板</a>
+  <a href="https://github.com/AQiaoYo/catppuccin#-调色板">调色板</a>
   ·
-  <a href="https://github.com/catppuccin/catppuccin#-ports-and-more">移植版本</a>
+  <a href="https://github.com/AQiaoYo/catppuccin#-移植版本及其他">移植版本</a>
   ·
-  <a href="https://github.com/catppuccin/catppuccin#-showcase">作品展示</a>
+  <a href="https://github.com/AQiaoYo/catppuccin#-作品展示">作品展示</a>
   ·
-  <a href="https://github.com/catppuccin/catppuccin/tree/main/docs">文档</a>
+  <a href="https://github.com/AQiaoYo/catppuccin/tree/main/docs">文档</a>
 </h6>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
+  <img src="https://raw.githubusercontent.com/AQiaoYo/catppuccin/main/assets/palette/macchiato.png" width="400" />
 </p>
 
 <p align="center">
@@ -33,7 +33,11 @@
 &nbsp;
 
 <p align="center">
-Catppuccin是一个社区驱动的柔和色调主题，旨在成为低对比度与高对比度主题之间的平衡点。它包含4种舒缓温暖的风格，每种风格都有26种赏心悦目的颜色，非常适合编程、设计等多种用途！此外，该仓库还跟踪实际调色板的开发进度、<a href="https://github.com/catppuccin/catppuccin/tree/main/docs"><b>项目文档</b></a>、组织范围内的资源、素材以及为维护者/开发者提供的代码示例。
+注意, 此仓库并非官方仓库, 此仓库只是简单翻译了 Catppuccin 的文档, 且为 DeepSeek 翻译, 内容请注意甄别!
+</p>
+
+<p align="center">
+Catppuccin是一个社区驱动的柔和色调主题，旨在成为低对比度与高对比度主题之间的平衡点。它包含4种舒缓温暖的风格，每种风格都有26种赏心悦目的颜色，非常适合编程、设计等多种用途！此外，该仓库还跟踪实际调色板的开发进度、<a href="https://github.com/AQiaoYo/catppuccin/tree/main/docs"><b>项目文档</b></a>、组织范围内的资源、素材以及为维护者/开发者提供的代码示例。
 </p>
 
 <p align="center">
@@ -103,7 +107,7 @@ Catppuccin是一个社区驱动的柔和色调主题，旨在成为低对比度�
 ### 🎨 调色板
 
 **Catppuccin** 包含4组精美的柔色调色板，称为**风味**。所有细节如下所示。<br>
-若要在您的项目中使用它们，请参考我们的[风格指南](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)了解通用场景和规范。此外，您可以在[catppuccin/palette](https://github.com/catppuccin/palette)找到与主流框架和工具的集成方案。
+若要在您的项目中使用它们，请参考我们的[风格指南](https://github.com/AQiaoYo/catppuccin/blob/main/docs/style-guide.md)了解通用场景和规范。此外，您可以在[catppuccin/palette](https://github.com/catppuccin/palette)找到与主流框架和工具的集成方案。
 
 已有项目使用了我们的调色板？别忘了将其添加到下方的[作品展示](#-showcase)板块！
 <br><img src="assets/misc/transparent.png" height="10" width="0" />
@@ -892,9 +896,9 @@ Catppuccin是一个社区驱动的柔和色调主题，旨在成为低对比度�
 
 > [!NOTE]<br>
 > 如果您想提交一个移植版本或学习如何将Catppuccin移植到一个程序中，请参考
-> [port-creation.md](https://github.com/catppuccin/catppuccin/blob/main/docs/port-creation.md)
+> [port-creation.md](https://github.com/AQiaoYo/catppuccin/blob/main/docs/port-creation.md)
 
-详见 [CONTRIBUTING.md](https://github.com/catppuccin/catppuccin/blob/main/CONTRIBUTING.md)
+详见 [CONTRIBUTING.md](https://github.com/AQiaoYo/catppuccin/blob/main/CONTRIBUTING.md)
 
 ### 🪵 移植版本及其他！
 
@@ -1571,7 +1575,7 @@ Catppuccin依据MIT许可证发布，授予以下权限：
 &nbsp;
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+	<img src="https://raw.githubusercontent.com/AQiaoYo/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
 </p>
 
 <p align="center">
